@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://ai-inteviewer-resume-optimizer.onrender.com/',
+  baseURL: 'https://ai-inteviewer-resume-optimizer.onrender.com/api',
   timeout: 120000, // ২ মিনিট টাইমআউট
   headers: {
     'Content-Type': 'application/json',
