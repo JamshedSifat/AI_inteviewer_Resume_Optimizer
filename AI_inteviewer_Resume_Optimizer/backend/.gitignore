@@ -29,3 +29,6 @@ staticfiles/
 # Test / debug scripts with potential local secrets
 test_gemini.py
 test_openai.py
+
+
+gunicorn
